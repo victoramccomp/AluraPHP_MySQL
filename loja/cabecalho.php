@@ -11,5 +11,19 @@
 		<title>Hello, world!</title>
 	</head>
 	<body>
+		<nav class="navbar navbar-inverse fixed-top bg-dark navbar-dark">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.php">Minha Loja</a>
+				</div>	
+				<div>
+					<ul class="nav justify-content-end">
+						<li class="nav-item">
+							<a class="nav-link active" href="produto-formulario.php">Adiciona Formulário</a>
+						</li>
+					</ul>
+				</div>	
+			</div>
+		</nav>
 		<div class="container">
 			<div class="principal">
