@@ -21,6 +21,9 @@
 						<li class="nav-item">
 							<a class="nav-link active" href="produto-formulario.php">Adiciona Formulário</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="produto-lista.php">Lista de Produtos</a>
+						</li>
 					</ul>
 				</div>	
 			</div>

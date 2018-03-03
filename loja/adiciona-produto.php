@@ -1,5 +1,5 @@
 <?php include("cabecalho.php")?>
-
+<?php include("cabecalho.php")?>
 <?php
 
     function inserirProduto($conn, $nome, $preco) 
@@ -10,9 +10,6 @@
 
     $nome = $_GET["nome"];
     $preco = $_GET["preco"];
-    $conn = mysqli_connect('localhost', 'root', '', 'alura_phpmysql_loja');
-
-
     
     if(inserirProduto($conn, $nome, $preco)) {?>
         <p class="text-success"> Produto <?= $nome; ?>, <?= $preco; ?> adicionado com sucesso!!! </p>
